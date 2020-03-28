@@ -3,15 +3,71 @@
 <head>
 	<meta charset="utf-8">
 	<title>Welcome! - Yuchen Hu</title>
+	<style type="text/css">
+		.contact{
+			height: 30px;
+			font-size: 22px;
+			background-color: rgb(205,201,201);
+			background-size: cover;
+			text-align: right;
+			z-index: 1;
+		}
+		.contact :link{
+			color: purple;
+			text-decoration: none;
+		}
+		.contact :hover, .contact :active{
+			color: blue;
+		}
+		.aboutme{
+			position: relative;
+			margin: 0px;
+			background-color: rgb(176,196,222);
+			text-align: center;
+			font-size: 30px;
+		} 
+		section :link{
+			text-decoration: none;
+		}
+		
+		.mypic{
+			position: absolute;
+			left: 50%;
+			margin-left: -150px;
+			background-image: url("pic.jpg");
+			height: 200px;
+			width: 300px;
+			background-size: cover;
+			z-index: 1;
+		}
+		.bg{
+			height: 200px;
+			background-color: rgb(176,196,222);
+			background-size: cover;
+			z-index: 2;
+		}
+		p.aboutMe{
+			font-size: 18px;
+			color: grey;
+			}
+		footer{
+			position: relative;
+			top:50px;
+			height: 50px;
+			background-color: rgb(205,201,201);
+		}
+	</style>
 </head>
 <body>
-	<img src="pic.jpg" width="300" height="200" alt="" />
-	<h1>About me</h1>
+	<div class="mypic"></div>
+	<div class="bg"> </div>
+	<div class="contact"><a href="contact.html">Contact &nbsp &nbsp</a> </div>
+	<h1 class="aboutme">About me</h1>
 
 	<section id="intro">
 		<p class="aboutMe">Hi, welcome to my site!</p>
-		<p class="aboutMe">I am Yuchen, earned the undergraduate degree at <a href="http://en.sdust.edu.cn/">SDUST</a>, and currently studying at <a href="https://www.usc.edu/">USC</a>. </p>
-		<p class="aboutMe">I love mathematics, and enjoy coding</p>
+		<p class="aboutMe">I am Yuchen, earned the bachelor degree at <a href="http://en.sdust.edu.cn/">SDUST</a>, and currently studying at <a href="https://www.usc.edu/">USC</a>. </p>
+		<p class="aboutMe">I love mathematics, and enjoy coding。</p>
 		<p class="aboutMe">From my previous works, I dedicate to incorporate my knowledge of engineering with data-driven approaches to realize technological optimization that can enhance the lives of everyday people.</p>
 		<p class="aboutMe">Now, I have the passion for software development and have shown my commitment to start and build a career in this sector by seeking out a number of different work experience placements. </p>
 		<p class="aboutMe">Fight on!</p>
