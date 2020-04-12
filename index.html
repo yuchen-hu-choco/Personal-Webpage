@@ -1,90 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Welcome! - Yuchen Hu</title>
-	<style type="text/css">
-		.contact{
-			height: 30px;
-			font-size: 22px;
-			background-color: rgb(205,201,201);
-			background-size: cover;
-			text-align: right;
-			z-index: 1;
-		}
-		.contact :link{
-			color: purple;
-			text-decoration: none;
-		}
-		.contact :hover, .contact :active{
-			color: blue;
-		}
-		.aboutme{
-			position: relative;
-			margin: 0px;
-			background-color: rgb(176,196,222);
-			text-align: center;
-			font-size: 30px;
-		} 
-		section :link{
-			text-decoration: none;
-		}
-		
-		.mypic{
-			position: absolute;
-			left: 50%;
-			margin-left: -150px;
-			background-image: url("pic.jpg");
-			height: 200px;
-			width: 300px;
-			background-size: cover;
-			z-index: 1;
-		}
-		.bg{
-			height: 200px;
-			background-color: rgb(176,196,222);
-			background-size: cover;
-			z-index: 2;
-		}
-		p.aboutMe{
-			font-size: 18px;
-			color: grey;
-			}
-		footer{
-			position: relative;
-			top:50px;
-			height: 50px;
-			background-color: rgb(205,201,201);
-		}
-	</style>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome! Yuchen Hu</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styleIndex.css">
+  </head>
 <body>
-	<div class="mypic"></div>
-	<div class="bg"> </div>
-	<div class="contact"><a href="projects.html">Projects &nbsp &nbsp &nbsp</a><a href="contact.html">Contact &nbsp &nbsp</a> </div>
-	<h1 class="aboutme">About me</h1>
 
-	<section id="intro">
-		<p class="aboutMe">Hi, welcome to my site!</p>
-		<p class="aboutMe">I am Yuchen, earned the bachelor degree at <a href="http://en.sdust.edu.cn/">SDUST</a>, and currently studying at <a href="https://www.usc.edu/">USC</a>. </p>
-		<p class="aboutMe">I love mathematics, and enjoy coding。</p>
-		<p class="aboutMe">From my previous works, I dedicate to incorporate my knowledge of engineering with data-driven approaches to realize technological optimization that can enhance the lives of everyday people.</p>
-		<p class="aboutMe">Now, I have the passion for software development and have shown my commitment to start and build a career in this sector by seeking out a number of different work experience placements. </p>
-		<p class="aboutMe">Fight on!</p>
+  <div class="container-fluid">
+    <div id="firstRow" class="row">
+      <div class="col-lg-6 col-md-3 col-sm-12 col-xs-0">Yuchen Hu</div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" id="head"><a href="myWorks.html">My works</a> </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" id="head"><a href="myStory.html">My story</a></div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" id="head"><a href="contact.html">Contact</a> </div>
+    </div>
 
-		<h4 class="aboutMe">You could also find on</h4>
+    <div id="passage" class="row">
+      <div class="col-xs-6" id="part1">
+          <div align="center">
+          <img id="image1" src="pic.jpg">
+          </div>
+      </div>
+      <div class="col-xs-6" id="part2">
+        <p id="part2-1">You can also find me on:</p>
+        <p><a href="https://github.com/yuchen-hu-choco">Github</a></p>
+        <p><a href="Linkedin.html">Linkedin</a></p>
+      </div>
+      <div class="col-xs-12" id="part3">
+          <p>Student &amp Software Developer</p>
+      </div>
+      <div class="col-xs-12" id="part4">
+          <footer>
+            <h5>&copy;2020 by Yuchen Hu</h5>
+          </footer> 
+      </div>
+    </div>
 
-		<ul>
-			<li><a href="linkedin.html">linkedin</a></li>
-			<li><a href="https://github.com/yuchen-hu-choco">Github</a></li>
-		</ul>
+  </div>
 
-		<a href="contact.html" title="This link" target="_blank">Contact me!</a>
-	</section>
-
-	<footer>
-	<h6>&copy;2020 by Yuchen Hu</h6>
-	</footer> 
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
